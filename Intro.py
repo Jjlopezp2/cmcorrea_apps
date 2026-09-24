@@ -54,4 +54,11 @@ with col2:
  url = "https://jjlopezp2-whatev-whatev-xq31nq.streamlit.app/"
  st.write(f"Give Up: [Enlace]({url})")
 
+ st.subheader("Robot Lector")
+ image = Image.open('d086f56a4da1d8aedad7840d84273007.jpg')
+ st.image(image, width=200)
+ st.write("En el siguiete enlace un robot va a poder leer y responder preguntas sobre un PDF.") 
+ url = "https://chatpdf-mwzztah9xjwwmyxnvjdnym.streamlit.app/"
+ st.write(f"Robot lector: [Enlace]({url})")
+
 
