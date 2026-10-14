@@ -61,6 +61,13 @@ with col2:
  url = "https://chatpdf-mwzztah9xjwwmyxnvjdnym.streamlit.app/"
  st.write(f"Robot lector: [Enlace]({url})")
 
+ st.subheader("Robot Detector de Gestos")
+ image = Image.open('cartoon-image-of-a-robot-reading-a-book-vector.jpg')
+ st.image(image, width=200)
+ st.write("En el siguiete enlace un robot va a poder leer y responder preguntas sobre un PDF.") 
+ url = "https://kkt9hzt2g6ridht6gxne5q.streamlit.app/"
+ st.write(f"Robot lector: [Enlace]({url})")
+
 with col3:
   st.subheader("Nube de Palabras")
   image = Image.open('logo-fb-es.png')
@@ -77,7 +84,7 @@ with col3:
   st.write(f"Análisis de Sentimiento: [Enlace]({url})")
 
   st.subheader("Frecuencia del Término - Frecuencia Inversa del Documento")
-  image = Image.open('450_1000.jpg')
+  image = Image.open('fun-3d-cartoon-robot-illustration_183364-120131.avif')
   st.image(image, width=200)
   st.write("En el siguiente enlace, se podrá ver un programa de TF-IDF.") 
   url = "https://tdfesp-g6zrf2xgun4hkozsegtkfc.streamlit.app/"
