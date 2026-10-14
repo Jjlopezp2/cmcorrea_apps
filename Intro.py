@@ -63,15 +63,22 @@ with col2:
 
 with col3:
   st.subheader("Nube de Palabras")
-  image = Image.open('image-3-2.png')
+  image = Image.open('logo-fb-es.png')
   st.image(image, width=200)
   st.write("En el siguiente enlace, se podrá crear una nube de palabras con base a un texto.") 
   url = "https://wordcloud-gslnwrn8ybttfdgwkar24l.streamlit.app/"
   st.write(f"Nube de Palabras: [Enlace]({url})")
 
   st.subheader("Análisis de Sentimiento")
-  image = Image.open('image-3-2.png')
+  image = Image.open('450_1000.jpg')
   st.image(image, width=200)
   st.write("En el siguiente enlace, se podrá analizar la polaridad emocional de un texto.") 
   url = "https://sentimenta-qswjzjsgtmxnbpqp4mklcr.streamlit.app/"
+  st.write(f"Análisis de Sentimiento: [Enlace]({url})")
+
+  st.subheader("Frecuencia del Término - Frecuencia Inversa del Documento")
+  image = Image.open('450_1000.jpg')
+  st.image(image, width=200)
+  st.write("En el siguiente enlace, se podrá ver un programa de TF-IDF.") 
+  url = "https://tdfesp-g6zrf2xgun4hkozsegtkfc.streamlit.app/"
   st.write(f"Análisis de Sentimiento: [Enlace]({url})")
