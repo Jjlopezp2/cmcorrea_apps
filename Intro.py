@@ -55,10 +55,23 @@ with col2:
  st.write(f"Give Up: [Enlace]({url})")
 
  st.subheader("Robot Lector")
- image = Image.open('d086f56a4da1d8aedad7840d84273007.jpg')
+ image = Image.open('cartoon-image-of-a-robot-reading-a-book-vector.jpg')
  st.image(image, width=200)
  st.write("En el siguiete enlace un robot va a poder leer y responder preguntas sobre un PDF.") 
  url = "https://chatpdf-mwzztah9xjwwmyxnvjdnym.streamlit.app/"
  st.write(f"Robot lector: [Enlace]({url})")
 
+with col3:
+  st.subheader("Nube de Palabras")
+  image = Image.open('image-3-2.png')
+  st.image(image, width=200)
+  st.write("En el siguiente enlace, se podrá crear una nube de palabras con base a un texto.") 
+  url = "https://wordcloud-gslnwrn8ybttfdgwkar24l.streamlit.app/"
+  st.write(f"Nube de Palabras: [Enlace]({url})")
 
+  st.subheader("Análisis de Sentimiento")
+  image = Image.open('image-3-2.png')
+  st.image(image, width=200)
+  st.write("En el siguiente enlace, se podrá analizar la polaridad emocional de un texto.") 
+  url = "https://sentimenta-qswjzjsgtmxnbpqp4mklcr.streamlit.app/"
+  st.write(f"Análisis de Sentimiento: [Enlace]({url})")
