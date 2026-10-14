@@ -62,7 +62,7 @@ with col2:
  st.write(f"Robot lector: [Enlace]({url})")
 
  st.subheader("Robot Detector de Gestos")
- image = Image.open('cartoon-image-of-a-robot-reading-a-book-vector.jpg')
+ image = Image.open('hand_axis.png')
  st.image(image, width=200)
  st.write("En el siguiete enlace un robot va a poder leer y responder preguntas sobre un PDF.") 
  url = "https://kkt9hzt2g6ridht6gxne5q.streamlit.app/"
