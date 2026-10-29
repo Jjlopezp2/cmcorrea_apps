@@ -3,89 +3,77 @@ from PIL import Image
 st.title("Aplicaciones de Inteligencia Artificial.")
 
 with st.sidebar:
-  st.subheader("Aplicaciones con Inteligencia Artificial.")
+  st.subheader("Aplicaciones de Juan José López.")
   parrafo = (
-    "La inteligencia artificial permite mejorar la toma de decisiones con el uso de datos, "
-    "automatizar tareas rutinarias y proporcionar análisis avanzados en tiempo real, lo que "
-    "resulta en una mayor eficiencia y precisión en diversos campos."
+    "Son apps que creé para Interfaces Multimodales en 2026-2."
   )
   st.write(parrafo)
 
-url_ia="https://sites.google.com/view/aplicacionesdeia/inicio"
-st.subheader("En el siguiente enlace puedes encontrar páginas y ejercicios prácticos")
-st.write(f"Enlace para páginas y ejercicios: [Enlace]({url_ia})")
 col1, col2, col3 = st.columns(3)
 
 with col1:
  
- st.subheader("Conversión de texto a voz")
- image = Image.open('txt_to_audio2.jpg')
+ st.subheader("Visión Artificial en Teachable Machine y YOLO")
+ image = Image.open('fun-3d-cartoon-robot-illustration_183364-120131.avif')
  st.image(image, width=192)
- st.write("En el siguiente enlace, se convertirá un texto a audio.") 
- url = "https://e487tvzsuvluweowgtrjlp.streamlit.app/"
- st.write(f"Texto a voz: [Enlace]({url})")
+ st.write("En el siguiente enlace, se podrá interpretar una imagen por medio de Keras y YOLO.") 
+ url = "https://aaaaaaaaaaaa-cqfkrrvyeak8f9nf7pnwhk.streamlit.app/"
+ st.write(f"Visión Artificial: [Enlace]({url})")
 
- st.subheader("Conversión de Imagen a Texto")
- image = Image.open('unnamed1.png')
+ st.subheader("Control de MQTT")
+ image = Image.open('data-analysis-skills-duties-responsibilities.jpeg')
  st.image(image, width=192)
- st.write("En el siguiente enlace, se podrá convertir imágenes a texto.") 
- url = "https://ocr-audio-jmv5lbb3xvkt3kh3cmygxx.streamlit.app/"
- st.write(f"Imagen a Texto: [Enlace]({url})")
+ st.write("En el siguiente enlace, se podrá controlar un Wokwi por medio de voz y MQTT.") 
+ url = "https://bbbbbbbbbb-enqexgttkcky9akuphx5ad.streamlit.app/"
+ st.write(f"Control de MQTT: [Enlace]({url})")
 
- st.subheader("Traductor de Audio")
- image = Image.open('unnamed.png')
+ st.subheader("Cerradura con Gestos")
+ image = Image.open('hand_axis.png')
  st.image(image, width=192)
- st.write("En el siguiente enlace, se podrá traducir un audio a otro idioma.") 
- url = "https://shdksjdks-4gcjnnv6zdf5urwsw5nsje.streamlit.app/"
- st.write(f"Traductor de Audio: [Enlace]({url})")
+ st.write("En el siguiente enlace, se podrá abrir una cerradura por medio de gestos.") 
+ url = "https://cerraduragestos-bxzbg5phzwtuuv7ofxmkmh.streamlit.app/"
+ st.write(f"Cerradura Gestos: [Enlace]({url})")
 
 with col2: 
- st.subheader("Reconocimiento de Imágenes")
- image = Image.open('image-3-2.png')
+ st.subheader("Control por Voz")
+ image = Image.open('txt_to_audio2.jpg')
  st.image(image, width=200)
- st.write("En el siguiente enlace, se podrán reconocer objetos de un ambiente.") 
- url = "https://kkt9hzt2g6ridht6gxne5q.streamlit.app/"
- st.write(f"Reconocimiento de Imágenes: [Enlace]({url})")
+ st.write("En el siguiente enlace, se podrá abrir una puerta y prender luces por medio de voz.") 
+ url = "https://ctrlvoice-natxxqqm3bxjuypk8szgaz.streamlit.app/"
+ st.write(f"Control por voz: [Enlace]({url})")
 
- st.subheader("Giving up")
+ st.subheader("Tablero poco inteligente")
  image = Image.open('d086f56a4da1d8aedad7840d84273007.jpg')
  st.image(image, width=200)
- st.write("En el siguiete enlace vamos a ver una app acerca de rendirse completamente.") 
- url = "https://jjlopezp2-whatev-whatev-xq31nq.streamlit.app/"
- st.write(f"Give Up: [Enlace]({url})")
+ st.write("En el siguiete enlace una IA poco inteligente interpreta un dibujo.") 
+ url = "https://drawrecog-zsek2gmvfrdz76h3qyvh9m.streamlit.app/"
+ st.write(f"Tablero: [Enlace]({url})")
 
- st.subheader("Robot Lector")
+ st.subheader("Reconocimiento de Números")
  image = Image.open('cartoon-image-of-a-robot-reading-a-book-vector.jpg')
  st.image(image, width=200)
- st.write("En el siguiete enlace un robot va a poder leer y responder preguntas sobre un PDF.") 
- url = "https://chatpdf-mwzztah9xjwwmyxnvjdnym.streamlit.app/"
- st.write(f"Robot lector: [Enlace]({url})")
-
- st.subheader("Robot Detector de Gestos")
- image = Image.open('hand_axis.png')
- st.image(image, width=200)
- st.write("En el siguiete enlace un robot va a poder leer y responder preguntas sobre un PDF.") 
- url = "https://kkt9hzt2g6ridht6gxne5q.streamlit.app/"
- st.write(f"Robot lector: [Enlace]({url})")
+ st.write("En el siguiete enlace, una IA podrá reconocer números escritos a mano.") 
+ url = "https://mnistpred-2gbn3g3fjbv7ety7w7uxri.streamlit.app/"
+ st.write(f"Números: [Enlace]({url})")
 
 with col3:
-  st.subheader("Nube de Palabras")
-  image = Image.open('logo-fb-es.png')
+  st.subheader("Interpretación de Imágenes")
+  image = Image.open('image-3-2.png')
   st.image(image, width=200)
-  st.write("En el siguiente enlace, se podrá crear una nube de palabras con base a un texto.") 
-  url = "https://wordcloud-gslnwrn8ybttfdgwkar24l.streamlit.app/"
+  st.write("En el siguiente enlace, una IA interpretará una imagen.") 
+  url = "https://visionapp-sk22vfwkub9aajjuwnq7ww.streamlit.app/"
   st.write(f"Nube de Palabras: [Enlace]({url})")
 
   st.subheader("Análisis de Sentimiento")
-  image = Image.open('450_1000.jpg')
+  image = Image.open('unnamed1.png')
   st.image(image, width=200)
   st.write("En el siguiente enlace, se podrá analizar la polaridad emocional de un texto.") 
   url = "https://sentimenta-qswjzjsgtmxnbpqp4mklcr.streamlit.app/"
   st.write(f"Análisis de Sentimiento: [Enlace]({url})")
 
-  st.subheader("Frecuencia del Término - Frecuencia Inversa del Documento")
-  image = Image.open('fun-3d-cartoon-robot-illustration_183364-120131.avif')
-  st.image(image, width=200)
-  st.write("En el siguiente enlace, se podrá ver un programa de TF-IDF.") 
-  url = "https://tdfesp-g6zrf2xgun4hkozsegtkfc.streamlit.app/"
-  st.write(f"Análisis de Sentimiento: [Enlace]({url})")
+ st.subheader("Tablero de Dibujo")
+ image = Image.open('hand_axis.png')
+ st.image(image, width=200)
+ st.write("En el siguiete enlace se podrá dibujar en un tablero customizable.") 
+ url = "https://3buapnn55j5dfiojuuwyk7.streamlit.app/"
+ st.write(f"Tablero: [Enlace]({url})")
