@@ -35,26 +35,26 @@ with col1:
  st.write(f"Cerradura Gestos: [Enlace]({url})")
 
 with col2: 
-   st.subheader("Control por Voz")
-   image = Image.open('txt_to_audio2.jpg')
-   st.image(image, width=200)
-   st.write("En el siguiente enlace, se podrá abrir una puerta y prender luces por medio de voz.") 
-   url = "https://ctrlvoice-natxxqqm3bxjuypk8szgaz.streamlit.app/"
-   st.write(f"Control por voz: [Enlace]({url})")
+  st.subheader("Control por Voz")
+  image = Image.open('txt_to_audio2.jpg')
+  st.image(image, width=200)
+  st.write("En el siguiente enlace, se podrá abrir una puerta y prender luces por medio de voz.") 
+  url = "https://ctrlvoice-natxxqqm3bxjuypk8szgaz.streamlit.app/"
+  st.write(f"Control por voz: [Enlace]({url})")
   
-   st.subheader("Tablero poco inteligente")
-   image = Image.open('d086f56a4da1d8aedad7840d84273007.jpg')
-   st.image(image, width=200)
-   st.write("En el siguiete enlace una IA poco inteligente interpreta un dibujo.") 
-   url = "https://drawrecog-zsek2gmvfrdz76h3qyvh9m.streamlit.app/"
-   st.write(f"Tablero: [Enlace]({url})")
+  st.subheader("Tablero poco inteligente")
+  image = Image.open('d086f56a4da1d8aedad7840d84273007.jpg')
+  st.image(image, width=200)
+  st.write("En el siguiete enlace una IA poco inteligente interpreta un dibujo.") 
+  url = "https://drawrecog-zsek2gmvfrdz76h3qyvh9m.streamlit.app/"
+  st.write(f"Tablero: [Enlace]({url})")
   
-   st.subheader("Reconocimiento de Números")
-   image = Image.open('cartoon-image-of-a-robot-reading-a-book-vector.jpg')
-   st.image(image, width=200)
-   st.write("En el siguiete enlace, una IA podrá reconocer números escritos a mano.") 
-   url = "https://mnistpred-2gbn3g3fjbv7ety7w7uxri.streamlit.app/"
-   st.write(f"Números: [Enlace]({url})")
+  st.subheader("Reconocimiento de Números")
+  image = Image.open('cartoon-image-of-a-robot-reading-a-book-vector.jpg')
+  st.image(image, width=200)
+  st.write("En el siguiete enlace, una IA podrá reconocer números escritos a mano.") 
+  url = "https://mnistpred-2gbn3g3fjbv7ety7w7uxri.streamlit.app/"
+  st.write(f"Números: [Enlace]({url})")
 
 with col3:
   st.subheader("Interpretación de Imágenes")
