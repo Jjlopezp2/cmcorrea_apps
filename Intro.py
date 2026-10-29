@@ -71,9 +71,9 @@ with col3:
   url = "https://sentimenta-qswjzjsgtmxnbpqp4mklcr.streamlit.app/"
   st.write(f"Análisis de Sentimiento: [Enlace]({url})")
 
- st.subheader("Tablero de Dibujo")
- image = Image.open('hand_axis.png')
- st.image(image, width=200)
- st.write("En el siguiete enlace se podrá dibujar en un tablero customizable.") 
- url = "https://3buapnn55j5dfiojuuwyk7.streamlit.app/"
+  st.subheader("Tablero de Dibujo")
+  image = Image.open('hand_axis.png')
+  st.image(image, width=200)
+  st.write("En el siguiete enlace se podrá dibujar en un tablero customizable.") 
+  url = "https://3buapnn55j5dfiojuuwyk7.streamlit.app/"
  st.write(f"Tablero: [Enlace]({url})")
