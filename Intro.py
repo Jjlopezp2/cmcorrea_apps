@@ -76,4 +76,4 @@ with col3:
   st.image(image, width=200)
   st.write("En el siguiete enlace se podrá dibujar en un tablero customizable.") 
   url = "https://3buapnn55j5dfiojuuwyk7.streamlit.app/"
- st.write(f"Tablero: [Enlace]({url})")
+  st.write(f"Tablero: [Enlace]({url})")
