@@ -72,7 +72,7 @@ with col3:
   st.write(f"Análisis de Sentimiento: [Enlace]({url})")
 
   st.subheader("Tablero de Dibujo")
-  image = Image.open('hand_axis.png')
+  image = Image.open('images2.jpg')
   st.image(image, width=200)
   st.write("En el siguiete enlace se podrá dibujar en un tablero customizable.") 
   url = "https://3buapnn55j5dfiojuuwyk7.streamlit.app/"
