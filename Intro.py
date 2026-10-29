@@ -48,7 +48,7 @@ with col2:
  st.write("En el siguiete enlace una IA poco inteligente interpreta un dibujo.") 
  url = "https://drawrecog-zsek2gmvfrdz76h3qyvh9m.streamlit.app/"
  st.write(f"Tablero: [Enlace]({url})")
-
+  
  st.subheader("Reconocimiento de Números")
  image = Image.open('cartoon-image-of-a-robot-reading-a-book-vector.jpg')
  st.image(image, width=200)
